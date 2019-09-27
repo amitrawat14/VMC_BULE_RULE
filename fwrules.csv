@@ -1,0 +1,5 @@
+rulename,source_group,dst_group,service,action
+test_rule7,"test_1.2.3.4,test4.4.4.4",test_vm_tag,"HTTPS,HTTP",ALLOW
+test_rule10,test_vm_tag,"test_1.2.3.4,test_vm_tag","HTTP,SSSS",ALLOW
+test_rule3,"test_1.2.3.4,test_vm_tag",test_vm_tag,SSH,ALLOW
+test_rule30,"test_1.2.3.4,test_vm_tag",test_vm_tag,"SSH,FTP",ALLOW
